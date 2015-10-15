@@ -42,6 +42,9 @@
     // Hide the car details section (dvCarDetails)
       // Hide the personal details section (dvQuoteDetails)
       // Show the quote section (dvPersonalDetails)
+
+      $('#dvPersonalDetails').hide();
+      $('#dvQuoteDetails').show();
   }
 
   /*function getQuote() {
